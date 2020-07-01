@@ -1,0 +1,43 @@
+--git的配置命令
+
+--git基本命令
+git  init  初始化
+git add 文件名  向暂存区添加
+git commit -m    到git仓库
+git log 日志
+git status 查看状态
+git checkout 从暂存区 覆盖文件
+git rm --cached 文件  从暂存区移除
+git reset --hard  提交的id
+
+---git的分支  （副本理解上的意思）命令
+git branch 查看分支
+git branch  +名字  创建分支
+git checkout + 名字  切换分支
+git merge 合并分支  （开发分支合并到主分支 上应该占到 主分支上进行合并开发分支）
+git branch -d +名字  删除 分支
+git branch -D+名字
+
+git stash   存储临时改动
+git stash pop   恢复改动
+
+
+---git 远程仓库的使用命令
+git push +远程仓库  + 名字（分支名字）
+git add +别名+远程仓库
+git push +别名+分支名字
+git  push -u +别名+分支名字
+只需要
+git push
+--克隆 
+git clone +仓库地址
+--拉取
+git pull +远程仓库地址+分支名称
+--git解决冲突
+git 的---ssh 命令
+ssh-keygen 公钥私钥生成
+git的忽略清单
+.gitgonre (不被git管理的文件)写在里面
+
+
+
